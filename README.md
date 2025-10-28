@@ -1,5 +1,5 @@
 # Implementation of Univariate Linear Regression
-## Aim:
+## Aim:     
 To implement univariate Linear Regression to fit a straight line using least squares.
 ## Equipment’s required:
 1.	Hardware – PCs
@@ -29,7 +29,7 @@ for i in range(len(x)):
     num+=(x[i]-xmean)*(y[i]-ymean)
     den+=(x[i]-xmean)**2
 m = num/den
-b = ymean - m*xmean
+b = ymean - m*xmean     
 print(m,b)
 ypred = m*x+b
 print(ypred)
